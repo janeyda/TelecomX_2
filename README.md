@@ -1,17 +1,16 @@
 # TelecomX_2
-# 📊 Telecom X – Predicción de Cancelación (Churn)
+ 📊 Telecom X – Predicción de Cancelación (Churn)
 
-## 📣 Objetivo
+# 📣 Objetivo
 Predecir qué clientes tienen mayor probabilidad de cancelar sus servicios (churn) para implementar estrategias de retención proactivas.
 
----
 
 ## 🧰 Herramientas
 - Python, Pandas, NumPy  
 - Scikit-learn, Imbalanced-learn (SMOTE)  
 - Matplotlib, Seaborn  
 
----
+
 
 ## 🔹 Preprocesamiento
 - Se codificaron variables categóricas (One-Hot Encoding).  
@@ -19,7 +18,7 @@ Predecir qué clientes tienen mayor probabilidad de cancelar sus servicios (chur
 - Se balancearon las clases con **SMOTE**.  
 - Se normalizaron variables para modelos sensibles a la escala (KNN, Regresión).  
 
----
+
 
 ## 🔹 Modelos Evaluados
 | Modelo            | Exactitud | Precisión | Recall | F1-score | Observaciones |
@@ -31,7 +30,7 @@ Predecir qué clientes tienen mayor probabilidad de cancelar sus servicios (chur
 
 **Conclusión:** Random Forest es el modelo más confiable.
 
----
+
 
 ## 🔹 Factores Clave de Cancelación
 1. **tenure (antigüedad)** – Clientes recientes son más propensos a cancelar.  
